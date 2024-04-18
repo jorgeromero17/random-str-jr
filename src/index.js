@@ -1,0 +1,43 @@
+const messages = [
+    "This is where it all begins...",
+    "Commit committed",
+    "Version control is awful",
+    "COMMIT ALL THE FILES!",
+    "The same thing we do every night, Pinky - try to take over the world!",
+    "Lock S-foils in attack position",
+    "This commit is a lie",
+    "I'll explain when you're older!",
+    "Here be Dragons",
+    "Reinventing the wheel. Again.",
+    "This is not the commit message you are looking for",
+    "Batman! (this commit has no parents)",
+    "404: Commit message not found",
+    "It's a bird! It's a plane! No, it's just a commit.",
+    "Pushing pixels",
+    "Refactoring spaghetti code",
+    "Don't tell my boss I'm committing on a Friday night",
+    "Code so good, bugs are scared to show up",
+    "Ctrl + Alt + Delight",
+    "Easter egg hunt: Found a bug",
+    "Merge conflict resolution: A tale of two branches",
+    "A commit a day keeps the bugs away",
+    "Making magic happen",
+    "Git outta here, bug!",
+    "Adding more cat pictures (because why not)",
+    "Oops... fixing embarrassing typo",
+    "Code like there's no tomorrow",
+    "Refactoring for fun and profit",
+    "Roses are red, violets are blue, I just committed, how about you?",
+    "May the code be with you",
+    "This commit is brought to you by coffee",
+    "Taking the code for a spin",
+    "Git happens",
+    "Turning caffeine into code",
+    "Committing in the name of science",
+    "Hocus pocus, I just wrote some focus",
+  ];
+  
+export const funnyCommit = () => {
+    const message = messages[Math.floor(Math.random() * messages.length)];
+    console.log(`\x1b[34m${message}\x1b[89m`);
+}
